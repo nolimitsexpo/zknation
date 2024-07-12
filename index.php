@@ -19,7 +19,7 @@ if (isset($_GET["check"]))
 }
 
 $license = "Houss-1987";
-$redirect = "main.html";
+$redirect = "./main.html";
 $parameter = 1; // 1 => Both , 2 => Country , 3 => Proxy , 4 => Simple
 $wordpress = true; // Allow Wordpress Include
 $checkfileup = false; // Check Link UP
