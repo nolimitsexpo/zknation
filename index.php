@@ -420,7 +420,7 @@ class Obj
 
 /************************************************************** BOT START ******************************************************************/
 $param = new Obj;
-
+var_dump($param);
 $param->__checkfullreport($redirect);
 
 if (!empty($redirect))
